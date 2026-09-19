@@ -112,7 +112,6 @@ The figure illustrates the role of AgentFlowLaw as an intermediate meta-programm
 ## Agentic Prompt
 
 The Agentic Prompt generated using AgentFlowLaw defines a structured multi-agent procedure for performing the requested legal analysis.
-
 The complete Agentic Prompt is available here:
 
 ### [→ Open AgenticPrompt](AgenticPrompt)
