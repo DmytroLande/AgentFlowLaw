@@ -38,7 +38,7 @@ risks to health, safety, and fundamental rights.
 
 The legal act used in this example is available here:
 
-### [→ Open act.pdf](act.pdf)
+### [→ Open act.md](act.md)
 
 ------------------------------------------------------------------------
 
