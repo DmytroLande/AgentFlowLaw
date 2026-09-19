@@ -133,54 +133,16 @@ assessment.
 
 ## Graphical Representation
 
-The experiment is illustrated by the following workflow:
+The complete experimental workflow — from the input legal act through the AgentFlowLaw-generated agentic procedure to the structured analysis result — is illustrated below.
 
-``` text
-┌─────────────────────────┐
-│          INPUT          │
-│                         │
-│ EU Artificial           │
-│ Intelligence Act        │
-│                         │
-│        act.pdf          │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│      AgenticPrompt      │
-│                         │
-│ Multi-Agent Legal       │
-│ Analysis                │
-│                         │
-│ • Extraction            │
-│ • Risk Detection        │
-│ • Conflict Analysis     │
-│ • Verification          │
-│ • Synthesis             │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│         OUTPUT          │
-│                         │
-│ Structured Analysis     │
-│ Result                  │
-│                         │
-│         res.md          │
-└─────────────────────────┘
-```
+![AgentFlowLaw example: AI Act analysis](../PIC/res.png)
 
-A graphical version of this workflow can be stored in the repository as:
+The figure shows the practical execution chain:
 
-``` text
-PIC/AgentFlowLaw_Example.png
-```
+**EU Artificial Intelligence Act (`act.pdf`) → AgenticPrompt → Multi-Agent Legal Analysis → Analysis Result (`res.md`)**
 
-and displayed here using:
+The input legal document is processed by the specialized agents defined in the AgenticPrompt. The agents perform extraction, risk detection, conflict analysis, verification, and synthesis. The resulting structured report is stored in [`res.md`](res.md).
 
-``` markdown
-![AgentFlowLaw example: AI Act analysis](../PIC/AgentFlowLaw_Example.png)
-```
 
 ------------------------------------------------------------------------
 
