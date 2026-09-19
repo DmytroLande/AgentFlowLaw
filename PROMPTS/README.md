@@ -10,7 +10,7 @@ The initial task is formulated by a human expert in natural language:
 
 The complete primary prompt is available here:
 
-**[PrimaryPrompt](PrimaryPrompt.md)**
+**[PrimaryPrompt](PrimaryPrompt)**
 
 The Primary Prompt describes **what has to be analyzed**, but does not specify the internal analytical procedure, agent roles, verification mechanisms, or interaction logic.
 
