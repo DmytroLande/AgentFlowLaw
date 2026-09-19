@@ -79,7 +79,7 @@ human-control points.
 
 The complete generated prompt is available here:
 
-AgenticPrompt
+**[AgenticPrompt](AgenticPrompt)**
 
 Transformation Principle
 
@@ -101,7 +101,9 @@ Structured Result
 Human Expert
 
 AgentFlowLaw does not primarily program an answer to a legal question; it programs the procedure for obtaining, checking, tracing, and presenting that answer.
+---------------------------------------------------------------------------------------------------------
 | File                                  | Description                                                   |
 | ------------------------------------- | ------------------------------------------------------------- |
-| **[PrimaryPrompt](PrimaryPrompt)** | Initial legal-analysis task formulated in natural language    |
-| **[AgenticPrompt](AgenticPrompt)** | Multi-agent analytical procedure generated using AgentFlowLaw |
+| **[PrimaryPrompt](PrimaryPrompt)**    | Initial legal-analysis task formulated in natural language    |
+| **[AgenticPrompt](AgenticPrompt)**    | Multi-agent analytical procedure generated using AgentFlowLaw |
+---------------------------------------------------------------------------------------------------------
