@@ -53,50 +53,6 @@ AgentFlowLaw
 Agentic Prompt
 ```
 
-More specifically:
-
-```text
-┌──────────────────────────┐
-│      PRIMARY PROMPT      │
-│                          │
-│    Legal analysis task   │
-│    formulated by a       │
-│    human expert          │
-└────────────┬─────────────┘
-             │
-             ▼
-┌──────────────────────────┐
-│       AgentFlowLaw       │
-│                          │
-│        Meta-Prompt       │
-│                          │
-│  • Task decomposition    │
-│  • Agent generation      │
-│  • Workflow design       │
-│  • Source verification   │
-│  • Result verification   │
-│  • Traceability          │
-│  • Human control         │
-└────────────┬─────────────┘
-             │
-             ▼
-┌──────────────────────────┐
-│      AGENTIC PROMPT      │
-│                          │
-│   Structured no-code     │
-│   multi-agent legal      │
-│   analysis procedure     │
-└──────────────────────────┘
-```
-
-Thus:
-
-> **Primary Prompt → AgentFlowLaw → Agentic Prompt**
-
-AgentFlowLaw does not merely expand or rewrite the original prompt.
-
-It **programs the analytical procedure** required to solve the legal task.
-
 ---
 
 ## Prompt Transformation
