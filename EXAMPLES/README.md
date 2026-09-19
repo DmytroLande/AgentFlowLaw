@@ -151,7 +151,7 @@ The input legal document is processed by the specialized agents defined in the A
   --------------------------------------------------------------------------------------
   File                                               Description
   -------------------------------------------------- -----------------------------------
-  **[act.pdf](act.pdf)**                             EU Artificial Intelligence Act used
+  **[act.md](act.md)**                             EU Artificial Intelligence Act used
                                                      as the input legal document
 
   **[PrimaryPrompt](../PROMPTS/PrimaryPrompt)**   Initial legal-analysis task
