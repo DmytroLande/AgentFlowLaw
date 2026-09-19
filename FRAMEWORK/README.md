@@ -155,19 +155,7 @@ LEGAL_CONTEXT:
         TRUE
 ```
 
-$$
-\mathrm{Context}_{Law}
-=
-\mathrm{Data}
-+
-\mathrm{Jurisdiction}
-+
-\mathrm{Time}
-+
-\mathrm{Authority}
-+
-\mathrm{Sources}
-$$
+ContextLaw=Data+Jurisdiction+Time+Authority+Sources 
 
 ---
 
