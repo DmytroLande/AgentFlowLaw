@@ -80,21 +80,7 @@ HUMAN_CONTROL
 
 Conceptually:
 
-$$
-\mathrm{AgentFlowLaw}
-=
-\mathrm{AgentFlow}
-+
-\mathrm{Legal\ Context}
-+
-\mathrm{Legal\ Sources}
-+
-\mathrm{Legal\ Verification}
-+
-\mathrm{Traceability}
-+
-\mathrm{Human\ Control}
-$$
+AgentFlowLaw=AgentFlow+Legal Context+Legal Sources+Legal Verification+Traceability+Human Control
 
 ---
 
