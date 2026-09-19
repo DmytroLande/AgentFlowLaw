@@ -4,8 +4,8 @@ This directory contains an example demonstrating how **AgentFlowLaw transforms a
 
 The example consists of two prompts:
 
-- **[Primary Prompt](PrimaryPrompt.md)** — the initial legal-analysis task formulated by a human expert.
-- **[Agentic Prompt](AgenticPrompt.md)** — the structured multi-agent procedure generated from the Primary Prompt using AgentFlowLaw.
+- **[Primary Prompt](PrimaryPrompt)** — the initial legal-analysis task formulated by a human expert.
+- **[Agentic Prompt](AgenticPrompt)** — the structured multi-agent procedure generated from the Primary Prompt using AgentFlowLaw.
 
 ---
 
@@ -17,7 +17,7 @@ The initial task is formulated by a human expert in natural language:
 
 The complete Primary Prompt is available here:
 
-### [→ Open PrimaryPrompt.md](PrimaryPrompt.md)
+### [→ Open PrimaryPrompt](PrimaryPrompt)
 
 The Primary Prompt describes **what has to be analyzed**, but does not define the internal analytical procedure.
 
@@ -115,7 +115,7 @@ The Agentic Prompt generated using AgentFlowLaw defines a structured multi-agent
 
 The complete Agentic Prompt is available here:
 
-### [→ Open AgenticPrompt.md](AgenticPrompt.md)
+### [→ Open AgenticPrompt](AgenticPrompt)
 
 The generated procedure specifies:
 
@@ -225,8 +225,8 @@ This approach transforms prompt engineering into **no-code programming of legal-
 
 | File | Description |
 |---|---|
-| **[PrimaryPrompt.md](PrimaryPrompt.md)** | Initial legal-analysis task formulated in natural language |
-| **[AgenticPrompt.md](AgenticPrompt.md)** | Structured multi-agent legal-analysis procedure generated using AgentFlowLaw |
+| **[PrimaryPrompt](PrimaryPrompt)** | Initial legal-analysis task formulated in natural language |
+| **[AgenticPrompt](AgenticPrompt)** | Structured multi-agent legal-analysis procedure generated using AgentFlowLaw |
 
 ---
 
