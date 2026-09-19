@@ -6,7 +6,7 @@ No-Code Multi-Agent Framework for Legal Act Analysis
 ## A No-Code Multi-Agent Framework for Legal Act Analysis
 
 **AgentFlowLaw** is a domain-specific no-code framework for designing and executing structured multi-agent procedures for the analysis of legal and regulatory documents using Large Language Models (LLMs).
-![AgentFlowLaw multi-agent framework](PIC/AgentFlowLaw_Architecture.png)
+![AgentFlowLaw multi-agent framework](PIC/agent-sh-Github.png)
 
 AgentFlowLaw extends the general-purpose **AgentFlow** approach by introducing concepts and mechanisms required specifically for legal analysis, including legal context, jurisdiction, temporal validity of legal norms, normative authority of sources, evidence verification, uncertainty handling, traceability, and human control.
 
