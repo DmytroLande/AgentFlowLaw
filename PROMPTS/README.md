@@ -54,3 +54,54 @@ The transformation can be represented as:
 │ multi-agent legal   │
 │ analysis procedure  │
 └──────────────────────┘
+In compact form:
+
+Primary Prompt → AgentFlowLaw → Agentic Prompt
+
+AgentFlowLaw therefore does not merely expand the original prompt. It programs the analytical procedure required to solve the legal task.
+
+Agentic Prompt
+
+The generated Agentic Prompt defines a structured multi-agent procedure for performing the requested legal analysis.
+
+It specifies:
+
+specialized legal agents;
+their roles and goals;
+input and output for each agent;
+sequential and parallel analytical operations;
+information transfer between agents;
+legal-source verification;
+detection of risks, contradictions, ambiguities, gaps, and corruption-risk indicators;
+verification and traceability procedures;
+synthesis of results;
+human-control points.
+
+The complete generated prompt is available here:
+
+AgenticPrompt
+
+Transformation Principle
+
+The example illustrates the central principle of AgentFlowLaw:
+Legal Task
+    ↓
+Primary Prompt
+    ↓
+AgentFlowLaw
+    ↓
+Generated Agentic Prompt
+    ↓
+Multi-Agent Analysis
+    ↓
+Verification
+    ↓
+Structured Result
+    ↓
+Human Expert
+
+AgentFlowLaw does not primarily program an answer to a legal question; it programs the procedure for obtaining, checking, tracing, and presenting that answer.
+| File                                  | Description                                                   |
+| ------------------------------------- | ------------------------------------------------------------- |
+| **[PrimaryPrompt](PrimaryPrompt)** | Initial legal-analysis task formulated in natural language    |
+| **[AgenticPrompt](AgenticPrompt)** | Multi-agent analytical procedure generated using AgentFlowLaw |
